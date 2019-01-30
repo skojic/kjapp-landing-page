@@ -27,7 +27,7 @@ html {
 
 h1 {
 	margin: 0 0;
-	font-size: 300%;
+	font-size: 360%;
 }
 
 h2 {
@@ -68,7 +68,7 @@ header {
 	position: absolute;
 	width: 1140px;
 	top: 25%;
-	left: 20%;
+	left: 10%;
 }
 
 .buttons {
@@ -82,10 +82,9 @@ header {
 /* VIDEO STYLING */
 /* -------------------------------------- */
 iframe {
-	height: 315px;
-	width: 560px;
+	height: 405px;
+	width: 720px;
 	margin-top: 15%;
-	margin-right:30%;
 }
 
 .in-the-same-boat {
@@ -97,7 +96,8 @@ iframe {
 	font-size: 140%;
 	text-align: left;
 	margin-top: 30px;
-	padding-left: 40%
+	padding-left: 40%;
+	padding-right: 10px;
 }
 
 /* -------------------------------------- */
