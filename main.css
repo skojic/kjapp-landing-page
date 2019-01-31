@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: Fakt Pro;
-  src: url(./fonts/FaktPro-Normal.woff);
+  src: url(./fonts/FaktPro-Normal.woff) format('woff2');
 }
 
 * {
@@ -114,8 +114,8 @@ iframe {
 .footer-buttons {
 	height: 100px;
 	display: inline-block;
-	padding-right: 10px;
 	padding-top: 20px;
+	border: 5px solid transparent;
 }
 
 .footer-nav {
@@ -132,6 +132,7 @@ iframe {
 
 .social-icons {
 	padding: 20px;
+	color: #fff
 }
 
 .fab {
